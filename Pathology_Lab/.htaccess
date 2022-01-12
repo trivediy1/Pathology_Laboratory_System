@@ -1,0 +1,6 @@
+RewriteEngine on
+
+RewriteRule ^Users/([A-Za-z-_1-9]*)$ Users/$1.php
+RewriteRule ^Admin/([A-Za-z-_1-9]*)$ Admin/$1.php
+
+#RewriteRule ^([A-Za-z-_1-9]*)/([A-Za-z-_1-9]*)$ $1/$2.php
